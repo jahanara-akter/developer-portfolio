@@ -202,9 +202,10 @@ main .about .about-info-container .about-info p {
 
 /* ==================== about part css end ======================= */
 /* ====================what I do part css start ======================= */
-#what-I-do{
+#what-I-do {
     padding-bottom: 130px;
 }
+
 #what-I-do h3 {
     color: #181818;
     text-align: center;
@@ -239,7 +240,7 @@ main .about .about-info-container .about-info p {
 }
 
 #what-I-do .project-container .text-one h4 {
-    color:  #181818;
+    color: #181818;
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
@@ -260,11 +261,12 @@ main .about .about-info-container .about-info p {
 
 /* ====================what I do part css end ======================= */
 /* ====================resume part css start ======================= */
-#resume-part{
+#resume-part {
     padding-bottom: 113px;
 }
-#resume-part h3{
-    color:  #181818;
+
+#resume-part h3 {
+    color: #181818;
     text-align: center;
     font-family: Open Sans;
     font-size: 35px;
@@ -273,11 +275,13 @@ main .about .about-info-container .about-info p {
     line-height: normal;
     padding-bottom: 113px;
 }
-#resume-part .resume-container{
+
+#resume-part .resume-container {
     display: flex;
     column-gap: 71px;
 }
-#resume-part .resume-container .education-part h2{
+
+#resume-part .resume-container .education-part h2 {
     color: #474747;
     font-family: Open Sans;
     font-size: 30px;
@@ -286,8 +290,9 @@ main .about .about-info-container .about-info p {
     line-height: normal;
     padding-bottom: 30px;
 }
-#resume-part .resume-container .education-part h5{
-    color:  #474747;
+
+#resume-part .resume-container .education-part h5 {
+    color: #474747;
     font-family: Open Sans;
     font-size: 25px;
     font-style: normal;
@@ -295,8 +300,9 @@ main .about .about-info-container .about-info p {
     line-height: normal;
     padding-bottom: 10px;
 }
-#resume-part .resume-container .education-part h6{
-    color:  #757575;
+
+#resume-part .resume-container .education-part h6 {
+    color: #757575;
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
@@ -304,50 +310,41 @@ main .about .about-info-container .about-info p {
     line-height: normal;
     padding-bottom: 20px;
 }
-#resume-part .resume-container .education-part p{
+
+#resume-part .resume-container .education-part p {
     color: #757575;
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; 
+    line-height: 28px;
 }
-#resume-part .resume-container .education-part hr{
-   margin:30px 0;
-   color: #D1D1D1;
+
+#resume-part .resume-container .education-part hr {
+    margin: 30px 0;
+    color: #D1D1D1;
 }
-#resume-part .download-cv{
+
+#resume-part .download-cv {
     margin-top: 30px;
     text-align: center;
 }
+
 /* ====================resume part css start ======================= */
 /* ====================== main css end ========================== */
 /* ====================== footer css start ========================== */
-footer {
-    max-width: 1140px;
-}
-footer .main{
+footer .main {
     display: flex;
+    column-gap: 117px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
 }
-footer .main .connect-part h3{
-    color:#181818;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+
+footer .main .connect-part {
+    width: 50%;
 }
-footer .main .connect-part p{
-    color:  #474747;
-    font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    width: 562px;
-}
-footer .main .form h3{
+
+footer .main .connect-part h3 {
     color: #181818;
     text-align: center;
     font-family: Open Sans;
@@ -355,5 +352,83 @@ footer .main .form h3{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-bottom: 20px;
+}
+
+footer .main .connect-part p {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 562px;
+    padding-bottom: 30px;
+}
+
+footer .main .form {
+    width: 50%;
+}
+
+footer .main .form h3 {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 28px;
+}
+
+footer .main .connect-part .icon {
+    display: flex;
+    column-gap: 24px;
+}
+
+footer .main .form .contact-form input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+footer .main .form .contact-form input {
+    padding: 18px 0 18px 30px;
+    width: 461px;
+    border-radius: 5px;
+    background:  #FFF;
+    border: 0;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+footer .main .form .contact-form textarea{
+    width: 461px;
+    height: 180px;
+    padding: 18px 0 0 30px;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border: 0;
+}
+footer .main .form .contact-form .btn-primary{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 39px 19px 39px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    width: 150px;
 }
 /* ====================== footer css end ========================== */
