@@ -1,0 +1,58 @@
+/* ==================== common css start ================================ */
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.btn-primary{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 35px 19px 36px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+}
+/* ==================== common css end ================================ */
+/* ==================== nav css start =========================== */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.nav-title span{
+   color: #FD6E0A;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 51px;
+}
+nav ul li a{
+    color:#474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ==================== nav css end =========================== */
