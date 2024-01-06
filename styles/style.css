@@ -260,6 +260,9 @@ main .about .about-info-container .about-info p {
 
 /* ====================what I do part css end ======================= */
 /* ====================resume part css start ======================= */
+#resume-part{
+    padding-bottom: 113px;
+}
 #resume-part h3{
     color:  #181818;
     text-align: center;
@@ -308,10 +311,49 @@ main .about .about-info-container .about-info p {
     font-style: normal;
     font-weight: 400;
     line-height: 28px; 
-    padding-bottom: 30px;
 }
-#resume-part #download-cv{
-   align-items: center;
+#resume-part .resume-container .education-part hr{
+   margin:30px 0;
+   color: #D1D1D1;
+}
+#resume-part .download-cv{
+    margin-top: 30px;
+    text-align: center;
 }
 /* ====================resume part css start ======================= */
 /* ====================== main css end ========================== */
+/* ====================== footer css start ========================== */
+footer {
+    max-width: 1140px;
+}
+footer .main{
+    display: flex;
+}
+footer .main .connect-part h3{
+    color:#181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+footer .main .connect-part p{
+    color:  #474747;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 562px;
+}
+footer .main .form h3{
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* ====================== footer css end ========================== */
