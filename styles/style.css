@@ -1,15 +1,18 @@
 /* ==================== common css start ================================ */
-*{
+* {
     padding: 0;
     margin: 0;
 }
-li{
+
+li {
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFF;
     font-family: Open Sans;
     font-size: 20px;
@@ -21,14 +24,17 @@ a{
     border-radius: 5px;
     border: 0;
 }
+
 /* ==================== common css end ================================ */
 /* ==================== nav css start =========================== */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-family: Open Sans;
     font-size: 45px;
@@ -36,18 +42,22 @@ nav{
     font-weight: 800;
     line-height: normal;
 }
-.nav-title span{
-   color: #FD6E0A;
+
+.nav-title span {
+    color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     margin-right: 51px;
 }
-nav ul li a{
-    color:#474747;
+
+nav ul li a {
+    color: #474747;
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
@@ -56,3 +66,60 @@ nav ul li a{
 }
 
 /* ==================== nav css end =========================== */
+/* ==================== header css start ======================= */
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 200px;
+    display: flex;
+}
+.banner .profile-picture{
+    width: 584px;
+}
+.banner .text h3 {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.banner .text h2{
+    color:  #181818;
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.banner .text p{
+    color:  #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 585px;
+    margin-bottom: 30px;
+}
+.banner .text .btn {
+    display: flex;
+    column-gap: 30px;
+}
+.banner .text .btn button{
+    color: #FD6E0A;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 19px 18px 23px 24px;
+    border: 1px solid #FD6E0A;
+    background-color: #FFF;
+    border-radius: 5px;
+}
