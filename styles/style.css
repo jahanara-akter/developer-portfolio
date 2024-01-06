@@ -129,11 +129,13 @@ nav ul li a {
 }
 /* ==================== header css end  ======================= */
 /* ==================== main css start ======================= */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 main .about{
     background: #FFF8F3;
     border-radius: 10px;
-    width: 1140px;
-    text-align: center;
     padding: 131px;
     margin: 130px 0;
 }
@@ -155,7 +157,30 @@ main .about p{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    width: 827px;
-    text-align: center;
-    margin: 0 auto;
+    margin-bottom: 30px;
 }
+main .about .about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+main .about .about-info-container .about-info{
+    text-align: center;
+}
+main .about .about-info-container .about-info h4{
+    color:  #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+main .about .about-info-container .about-info p{
+    color:  #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+/* ==================== main css end ======================= */
