@@ -79,9 +79,11 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
 }
-.banner .profile-picture{
+
+.banner .profile-picture {
     width: 584px;
 }
+
 .banner .text h3 {
     color: #474747;
     font-family: Open Sans;
@@ -91,8 +93,9 @@ nav ul li a {
     line-height: normal;
     margin-bottom: 5px;
 }
-.banner .text h2{
-    color:  #181818;
+
+.banner .text h2 {
+    color: #181818;
     font-family: Open Sans;
     font-size: 85px;
     font-style: normal;
@@ -100,21 +103,24 @@ nav ul li a {
     line-height: normal;
     margin-bottom: 20px;
 }
-.banner .text p{
-    color:  #757575;
+
+.banner .text p {
+    color: #757575;
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 30px;
     width: 585px;
     margin-bottom: 30px;
 }
+
 .banner .text .btn {
     display: flex;
     column-gap: 30px;
 }
-.banner .text .btn button{
+
+.banner .text .btn button {
     color: #FD6E0A;
     text-align: center;
     font-family: Open Sans;
@@ -127,20 +133,24 @@ nav ul li a {
     background-color: #FFF;
     border-radius: 5px;
 }
+
 /* ==================== header css end  ======================= */
 /* ==================== main css start ======================= */
 main {
     max-width: 1140px;
     margin: 0 auto;
 }
-main .about{
+
+/* ==================== about part css start ======================= */
+main .about {
     background: #FFF8F3;
     border-radius: 10px;
     padding: 131px;
     margin: 130px 0;
 }
-main .about h3{
-    color:  #181818;
+
+main .about h3 {
+    color: #181818;
     text-align: center;
     font-family: Open Sans;
     font-size: 35px;
@@ -149,7 +159,8 @@ main .about h3{
     line-height: normal;
     margin-bottom: 30px;
 }
-main .about p{
+
+main .about p {
     color: #757575;
     text-align: center;
     font-family: Open Sans;
@@ -159,15 +170,18 @@ main .about p{
     line-height: 30px;
     margin-bottom: 30px;
 }
-main .about .about-info-container{
+
+main .about .about-info-container {
     display: flex;
     justify-content: space-around;
 }
-main .about .about-info-container .about-info{
+
+main .about .about-info-container .about-info {
     text-align: center;
 }
-main .about .about-info-container .about-info h4{
-    color:  #757575;
+
+main .about .about-info-container .about-info h4 {
+    color: #757575;
     text-align: center;
     font-family: Open Sans;
     font-size: 20px;
@@ -175,12 +189,70 @@ main .about .about-info-container .about-info h4{
     font-weight: 400;
     line-height: 30px;
 }
-main .about .about-info-container .about-info p{
-    color:  #474747;
+
+main .about .about-info-container .about-info p {
+    color: #474747;
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
 }
-/* ==================== main css end ======================= */
+
+/* ==================== about part css end ======================= */
+/* ====================what I do part css start ======================= */
+#what-I-do h3 {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#what-I-do .paragraph {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 150px;
+}
+
+#what-I-do .project-container {
+    display: flex;
+    column-gap: 24px;
+}
+
+#what-I-do .project-container .text-one {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 33px;
+}
+
+#what-I-do .project-container .text-one h4 {
+    color:  #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+#what-I-do .project-container .text-one p {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+/* ====================what I do part css end ======================= */
+/* ====================== main css end ========================== */
