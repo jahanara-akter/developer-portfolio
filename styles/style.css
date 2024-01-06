@@ -32,6 +32,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+    padding-top: 50px;
 }
 
 .nav-title {
@@ -120,7 +121,7 @@ nav ul li a {
     column-gap: 30px;
 }
 
-.banner .text .btn button {
+.banner .text .btn .Contact {
     color: #FD6E0A;
     text-align: center;
     font-family: Open Sans;
@@ -201,6 +202,9 @@ main .about .about-info-container .about-info p {
 
 /* ==================== about part css end ======================= */
 /* ====================what I do part css start ======================= */
+#what-I-do{
+    padding-bottom: 130px;
+}
 #what-I-do h3 {
     color: #181818;
     text-align: center;
@@ -255,4 +259,59 @@ main .about .about-info-container .about-info p {
 }
 
 /* ====================what I do part css end ======================= */
+/* ====================resume part css start ======================= */
+#resume-part h3{
+    color:  #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 113px;
+}
+#resume-part .resume-container{
+    display: flex;
+    column-gap: 71px;
+}
+#resume-part .resume-container .education-part h2{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+#resume-part .resume-container .education-part h5{
+    color:  #474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+#resume-part .resume-container .education-part h6{
+    color:  #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+#resume-part .resume-container .education-part p{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    padding-bottom: 30px;
+}
+#resume-part #download-cv{
+   align-items: center;
+}
+/* ====================resume part css start ======================= */
 /* ====================== main css end ========================== */
