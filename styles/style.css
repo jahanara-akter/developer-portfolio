@@ -70,9 +70,9 @@ nav ul li a {
 /* ==================== header css start ======================= */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -120,7 +120,9 @@ nav ul li a {
     display: flex;
     column-gap: 30px;
 }
-
+.banner .text .btn i{
+    margin-right: 10px;
+}
 .banner .text .btn .Contact {
     color: #FD6E0A;
     text-align: center;
@@ -324,7 +326,9 @@ main .about .about-info-container .about-info p {
     margin: 30px 0;
     color: #D1D1D1;
 }
-
+#resume-part i{
+    margin-right: 10px;
+}
 #resume-part .download-cv {
     margin-top: 30px;
     text-align: center;
